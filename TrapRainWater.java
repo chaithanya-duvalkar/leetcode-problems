@@ -1,5 +1,13 @@
+/*
+ * 42. Given n non-negative integers representing an elevation map where the width of each bar is 1, 
+ compute how much water it can trap after raining.
+
+ */
+
+import java.util.*;
+
 public class TrapRainWater {
-    
+
         public static int trap(int[] height) {
             int n=height.length;
             int[] left_max=new int[n];
