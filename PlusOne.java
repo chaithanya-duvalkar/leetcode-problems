@@ -6,7 +6,7 @@ Increment the large integer by one and return the resulting array of digit
  */
 import java.util.Scanner;
 
-public class TwoSumIISort {
+public class PlusOne {
     public static int[] onePlus(int[] digits)
     {
         int n=digits.length;
