@@ -29,5 +29,7 @@ public class minTriangle {
         triangle.add(Arrays.asList(4, 1, 8, 3));
 
         System.out.println("Minimum Path Sum = " + obj.minTriangleDistance(triangle));
+        // output-->Minimum Path Sum = 11
+
     }
 }
