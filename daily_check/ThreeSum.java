@@ -23,7 +23,7 @@
 // Output: [[0,0,0]]
 // Explanation: The only possible triplet sums up to 0.
 import java.util.*;
-public class 3sum {
+public class ThreeSum {
     public List<List<Integer>> threesum(int[] nums)
     {
         List<List<Integer>> result=new ArrayList<>();
@@ -69,5 +69,14 @@ public class 3sum {
         }
         return result;
 
+    }
+     public static void main(String[] args) {
+        ThreeSum sol = new ThreeSum();
+        int[] nums = {-1, 0, 1, 2, -1, -4};
+        System.out.println(sol.threesum(nums));
+        int[] nums1 = {0,1,1};
+        System.out.println(sol.threesum(nums1));
+        int[] nums2 = {0,0,0};
+        System.out.println(sol.threesum(nums2));
     }
 }
